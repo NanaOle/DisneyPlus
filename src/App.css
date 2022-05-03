@@ -1,0 +1,108 @@
+.object {
+  animation: MoveUpDown 1.4s linear infinite;
+  position: relative;
+  background-color: transparent;
+  margin-top: 95px;
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: 10px;
+  }
+}
+
+#total {
+  color: rgb(49, 48, 48);
+  font-weight: lighter;
+}
+
+#first {
+  font-size: 28px;
+  font-weight: lighter;
+}
+
+#second {
+  font-size: 16px;
+}
+
+#third {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.newBtn {
+  margin-top: 13px !important;
+  margin-left: 10px !important;
+}
+
+#ima2 {
+  width: 392px;
+  margin-top: -20px;
+}
+
+#ima3 {
+  width: 392px;
+  margin-top: -20px;
+}
+
+.banner--fadeButton {
+  height: 7.9rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(107, 107, 214),
+    rgba(37, 37, 37, 0.61)
+  );
+  overflow-x: hidden !important;
+  margin-top: 120px;
+  margin-left: -80px;
+  width: 395px;
+}
+
+.btnIntro {
+  color: rgb(75, 73, 73);
+  background-color: rgb(194, 197, 197);
+  border-radius: 5px;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  padding: 3px 20px;
+  margin: 420px auto 0 auto;
+
+  font-family: 'Graphik', Helvetica, Arial, sans-serif;
+}
+
+.bundleHead {
+  display: flex;
+  justify-content: space-between;
+}
+
+#forth {
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    font-size: 16px;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  body {
+    font-size: 14px !important;
+  }
+}
